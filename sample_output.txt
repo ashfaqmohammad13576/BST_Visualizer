@@ -1,0 +1,117 @@
+================ BST VISUALIZER MENU ================
+1. Insert Node
+2. Delete Node
+3. Search Node
+4. Inorder Traversal
+5. Preorder Traversal
+6. Postorder Traversal
+7. Level Order Traversal
+8. Display Tree Structure
+9. Count Nodes
+10. Height of Tree
+11. Find Minimum Value
+12. Find Maximum Value
+13. Exit
+=====================================================
+Enter your choice: 1
+Enter value to insert: 50
+Inserted successfully!
+
+Enter your choice: 1
+Enter value to insert: 30
+Inserted successfully!
+
+Enter your choice: 1
+Enter value to insert: 70
+Inserted successfully!
+
+Enter your choice: 1
+Enter value to insert: 20
+Inserted successfully!
+
+Enter your choice: 1
+Enter value to insert: 40
+Inserted successfully!
+
+Enter your choice: 1
+Enter value to insert: 60
+Inserted successfully!
+
+Enter your choice: 1
+Enter value to insert: 80
+Inserted successfully!
+
+Enter your choice: 8
+BST Tree Structure (Sideways):
+
+          80
+
+     70
+
+          60
+
+50
+
+          40
+
+     30
+
+          20
+
+
+Enter your choice: 4
+Inorder Traversal: 20 30 40 50 60 70 80
+
+Enter your choice: 5
+Preorder Traversal: 50 30 20 40 70 60 80
+
+Enter your choice: 6
+Postorder Traversal: 20 40 30 60 80 70 50
+
+Enter your choice: 7
+Level Order Traversal: 50 30 70 20 40 60 80
+
+Enter your choice: 3
+Enter value to search: 60
+Value 60 FOUND in BST!
+
+Enter your choice: 3
+Enter value to search: 100
+Value 100 NOT FOUND in BST!
+
+Enter your choice: 11
+Minimum Value = 20
+
+Enter your choice: 12
+Maximum Value = 80
+
+Enter your choice: 9
+Total Nodes = 7
+
+Enter your choice: 10
+Height of Tree = 3
+
+Enter your choice: 2
+Enter value to delete: 70
+
+Enter your choice: 8
+BST Tree Structure (Sideways):
+
+          80
+
+     60
+
+50
+
+          40
+
+     30
+
+          20
+
+
+Enter your choice: 4
+Inorder Traversal: 20 30 40 50 60 80
+
+Enter your choice: 13
+Exiting Program... Goodbye!
