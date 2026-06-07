@@ -189,7 +189,6 @@ void displayTree(struct Node* root, int space) {
         return;
 
     space += 5;
-
     displayTree(root->right, space);
 
     printf("\n");
@@ -331,3 +330,4 @@ int main() {
 
     return 0;
 }
+
